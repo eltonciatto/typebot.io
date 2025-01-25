@@ -1,7 +1,7 @@
 import { isNotEmpty } from "@typebot.io/lib/utils";
 import { useEventListener } from "./useEventListener";
 
-const typebotWindowTagName = "TYPEBOT-BUBBLE";
+const typebotWindowTagName = "TYPEBOT-STANDARD";
 
 type Props = {
   undo?: () => void;
